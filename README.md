@@ -1,3 +1,3 @@
 # Login-Register-with-Bootstrap
-$$ Pages Linl:
+## Pages Linl:
 https://jaafarmortada.github.io/Login-Register-with-Bootstrap/
