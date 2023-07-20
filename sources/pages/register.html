@@ -44,7 +44,7 @@ style="background-image: url('https://www.mozilla.org/media/img/firefox/privacy/
                         <div><h4>General Information</h4></div>
                         
                         <div>
-                            <form>
+                            <form class="register-from">
                                 <div class="form-group">
                                     <input type="text" class="form-control mb-2 mt-2 w-100" id="first_name" placeholder="your first name">
                                     <input type="text" class="form-control mb-2 mt-2 w-100" id="last_name" placeholder="your last name">
@@ -75,7 +75,7 @@ style="background-image: url('https://www.mozilla.org/media/img/firefox/privacy/
                                         <option value="4">Other</option>
                                       </select>
                                 </div>
-                                
+                                <button type="submit" class="btn btn-primary mt-3 bg-danger border-dark w-100 ">Submit & Register</button>
                             </form>
                         </div>
                     
@@ -136,7 +136,7 @@ style="background-image: url('https://www.mozilla.org/media/img/firefox/privacy/
                                       </select>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <button type="submit" class="btn btn-primary mt-3 bg-danger border-dark w-100 ">Submit & Register</button>
+                                    
                                 </div>
                             </form>
                         </div>
@@ -152,5 +152,9 @@ style="background-image: url('https://www.mozilla.org/media/img/firefox/privacy/
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javaScript/script.js"></script>
+    <script>
+        login_register_functions.register()
+    </script>
 </body>
 </html>
