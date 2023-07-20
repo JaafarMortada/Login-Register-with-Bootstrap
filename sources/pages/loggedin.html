@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logged in </title>
+</head>
+<body>
+    <h1 id="h1logged">logged in</h1>
+
+    <script src="../javaScript/script.js"></script>
+    <script>
+        let d1 = document.getElementById('h1logged')
+        d1.innerHTML += localStorage.getItem('name')
+    </script>
+</body>
+</html>
