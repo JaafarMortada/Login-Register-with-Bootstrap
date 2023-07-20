@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>registered</title>
+    <title>Welcome to our website </title>
 </head>
 <body>
-    <h1>registered</h1>
+    <h1 id="h1registered">Welcome to our website </h1>
     <script src="../javaScript/script.js"></script>
+    <script>
+        let display_name = document.getElementById('h1registered')
+        display_name.innerHTML += localStorage.getItem('reg_name')
+    </script>
 </body>
 </html>
