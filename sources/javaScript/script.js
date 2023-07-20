@@ -31,9 +31,9 @@ login_register_functions.my_fetch_register =  (page_url, data) => {
             let new_username = data.username
             let new_name = data.first_name
             let new_last_name = data.last_name
-            localStorage.setItem('username',new_username)
-            localStorage.setItem('name',new_name)
-            localStorage.setItem('lastname', new_last_name)
+            localStorage.setItem('reg_username',new_username)
+            localStorage.setItem('reg_name',new_name)
+            localStorage.setItem('reg_lastname', new_last_name)
             window.location.replace('../pages/registered.html')
         }
     })
@@ -62,7 +62,7 @@ login_register_functions.register = () => {
     register_form.addEventListener('submit', (e) =>{
         e.preventDefault()
         const register_data = new FormData();
-        register_data.append("username", first_name.value);
+        register_data.append("username", username.value);
         register_data.append("password", password.value);
         register_data.append("first_name", first_name.value);
         register_data.append("last_name", last_name.value);
